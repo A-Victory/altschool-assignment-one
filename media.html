@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Elements Page</title>
+    <link rel="stylesheet" href="styles/media.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Media Page</h1>
+        </header>
+
+
+        <nav>
+            <div class="nav-container">
+                <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+                <label for="menu-toggle" class="hamburger-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </label>
+                <ul class="nav-links">
+                    <li class="dropdown">
+                        <a href="index.html">Home</a>
+                        <ul class="dropdown-content">
+                            <li><a href="index.html#id">My ID</a></li>
+                            <li><a href="index.html#biography">Biography</a></li>
+                            <li><a href="index.html#reason">Reason for Joining the School</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="form.html">Sign-Up Form</a></li>
+                    <li><a href="table.html">School and Courses</a></li>
+                    <li><a href="media.html">My Media</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <!-- Introduction Section -->
+        <section class="intro">
+            <p>Welcome to the media page! Here, using different HTML media elements I tell a story.</p>
+            <p>First, here is an image of me:</p>
+            <img src="assets/me.jpeg" alt="A picture of me" class="profile-photo">
+        </section>
+
+        <!-- Content Section -->
+        <section class="content">
+            <div class="content-block">
+                <h2>Favorite Team</h2>
+                <p>I'm a big fan of football, like most football fans we do look forward to the league matches every
+                    weekend. Being a fan of
+                    football means you'll definitely have your favourites. Well I do have and my favorite team although
+                    a powerhouse in European football seems to catch the eye whenever I do mention them. Well, I'm going
+                    to leave to guessing, below is the logo of the team and another hint: they play in the German
+                    bundesliga!</p>
+                <img src="assets/bayern logo.png" alt="FC Bayern Munich Logo" class="content-image">
+            </div>
+
+            <div class="content-block">
+                <h2>Nature</h2>
+                <p>I have a fascination towards nature, since I was a young kid, nature has always called to me. I do
+                    love watching the skies, the clouds, the stars , insects and the moon. Now as an adult, whenever
+                    I feel stressed or overwhelmed I just detach and go be with nature and recharged. Below are images
+                    of the nature(one I took) and a beautiful friendship betweeen two sweet animals(I have no idea how
+                    it came by &#128517)</p>
+                <div class="nature-image">
+                    <img src="assets/nature.png" alt="A picture of an outdoor scene">
+                    <img src="assets/duck and bunny.jpg" alt="Friendship between a duck and rabbit">
+                </div>
+            </div>
+
+            <!-- Video Section -->
+            <div class="content-block">
+                <h2>Funny Video</h2>
+                <p>Just saw this video somewhere and it made me laugh, hope you get to smile atleast &#128514</p>
+                <video controls class="video">
+                    <source src="assets/funny.mp4" type="video/mp4">
+                    <source src="assets/funny.mp4" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <!-- Audio Section -->
+            <div class="content-block">
+                <h2>Listen to My Favorite Song</h2>
+                <p>Here an old school jam, might probably remind you of your childhood. A song by James Blunt. Can you guess the name?</p>
+                <audio controls class="media-element">
+                    <source src="assets/Goodbye My Lover.mp3" type="audio/mp3" id="video">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer-container">
+            <p>&copy; 2024 Victory Agbabune. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
